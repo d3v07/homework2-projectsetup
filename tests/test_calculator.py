@@ -1,5 +1,5 @@
 '''My calculator'''
-from calculator import add, subtract, multiply
+from calculator import add, subtract, multiply, divide
 
 def test_addition():
     '''asserting'''
@@ -12,3 +12,7 @@ def test_subtraction():
 def test_multiply():
     '''asserting'''
     assert multiply(2,2) == 4
+
+def test_divide():
+    '''asserting'''
+    assert divide(2,2) == 1
